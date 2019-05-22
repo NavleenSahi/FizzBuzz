@@ -2,7 +2,24 @@
 public class FizzBuzz {
 
 	public String buzzzzz(int num) {
-		if (num % 15 == 0) {
+		
+		boolean isPrime = true;
+		for (int i = 2; i < num-1; i++) {
+			if (num % i == 0) {
+				isPrime = false;
+				break;
+			}
+		}
+		
+		System.out.println("num: " + num);
+		System.out.println("is num prime?" + isPrime);
+		
+		if (isPrime == true) {
+			return "whizz";
+		}
+		
+		
+		if (num % 2 == 1) {
 			return "fizzbuzz";
 		}
 		else if (num % 5 == 0) {
