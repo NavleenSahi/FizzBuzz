@@ -6,17 +6,11 @@ import org.junit.jupiter.api.Test;
 
 class FizzBuzzTest {
 
-	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
-	}
-
-	@AfterAll
-	static void tearDownAfterClass() throws Exception {
-	}
-
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testDivisibleBy3() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzzz(3);
+		assertEquals("Fizz", result);
 	}
 
 }
