@@ -21,11 +21,20 @@ class FizzBuzzTest {
 		assertEquals("buzz", result);
 	}
 	
+	//R3
 	@Test
 	public void testDivisibleBy5and3() {
 		FizzBuzz b = new FizzBuzz();
 		String result = b.buzzzzz(15);
 		assertEquals("fizzbuzz", result);
 	}
+	
+	/*//R4
+	@Test
+	public void testOtherNumber() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzzz(4);
+		assertEquals("4", result);
+	}*/
 	
 }
