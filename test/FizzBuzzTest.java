@@ -20,4 +20,12 @@ class FizzBuzzTest {
 		String result = b.buzzzzz(5);
 		assertEquals("buzz", result);
 	}
+	
+	@Test
+	public void testDivisibleBy5and3() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzzz(15);
+		assertEquals("fizzbuzz", result);
+	}
+	
 }

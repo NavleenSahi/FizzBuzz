@@ -5,7 +5,7 @@ public class FizzBuzz {
 		if (num % 5 == 0) {
 			return "buzz";
 		}
-		return "Fizz";
+		return "buzz";
 
 	}
 
