@@ -9,7 +9,7 @@ class FizzBuzzTest {
 	@Test
 	void testDivisibleBy3() {
 		FizzBuzz b = new FizzBuzz();
-		String result = b.buzzzzz(3);
+		String result = b.buzzzzz(15);
 		assertEquals("Fizz", result);
 	}
 
