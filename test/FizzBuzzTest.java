@@ -6,13 +6,13 @@ import org.junit.jupiter.api.Test;
 
 class FizzBuzzTest {
 
-	/*@Test
+	@Test
 	void testDivisibleBy3() {
 		FizzBuzz b = new FizzBuzz();
-		String result = b.buzzzzz(15);
-		assertEquals("Fizz", result);
+		String result = b.buzzzzz(27);
+		assertEquals("fizz", result);
 	}
-	*/
+	
 	//R2: If number is divisible by 5, return "buzz"
 	@Test
 	public void testDivisibleBy5() {
@@ -51,7 +51,9 @@ class FizzBuzzTest {
 		FizzBuzz b = new FizzBuzz();
 		
 		String result = b.buzzzzz(3);
-		assertEquals("buzzwhizz", result);
-	}
+		assertEquals("fizzwhizz", result);
 	
+	result = b.buzzzzz(5);
+	assertEquals("buzzwhizz", result);
+}
 }
