@@ -45,4 +45,13 @@ class FizzBuzzTest {
 		assertEquals("whizz", result);
 	}
 	
+	//R6
+	@Test
+	public void testAppendWhizz() {
+		FizzBuzz b = new FizzBuzz();
+		
+		String result = b.buzzzzz(3);
+		assertEquals("buzzwhizz", result);
+	}
+	
 }
